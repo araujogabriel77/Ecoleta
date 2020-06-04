@@ -1,0 +1,59 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @react-navigation/native
+
+PATH: 
+  C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Android\Sdk\platform-tools;C:\Android\Sdk\tools;C:\Program Files\Java\jdk-12.0.2\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\gabri\AppData\Local\Microsoft\WindowsApps;C:\Users\gabri\AppData\Local\Programs\Microsoft VS Code\bin;C:\Android\Sdk\platform-tools;C:\Android\Sdk\tools;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\MongoDB\Server\4.2\bin;C:\Program Files\heroku\bin;C:\Users\gabri\AppData\Local\GitHubDesktop\bin;C:\Users\gabri\AppData\Local\Yarn\bin;C:\Users\gabri\AppData\Roaming\npm;C:\Users\gabri\AppData\Local\hyper\app-3.0.2\resources\bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.14.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\gabri\Documents\NLW\Booster\mobile\node_modules\file-uri-to-path\test'
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "@expo-google-fonts/roboto": "^0.1.0",
+      "@expo-google-fonts/ubuntu": "^0.1.0",
+      "@react-native-community/masked-view": "0.1.6",
+      "@react-navigation/stack": "^5.4.1",
+      "expo": "~37.0.3",
+      "expo-font": "^8.1.1",
+      "react": "~16.9.0",
+      "react-dom": "~16.9.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
+      "react-native-gesture-handler": "~1.6.0",
+      "react-native-reanimated": "~1.7.0",
+      "react-native-safe-area-context": "0.7.3",
+      "react-native-screens": "~2.2.0",
+      "react-native-web": "~0.11.7"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.8.6",
+      "@types/react": "~16.9.23",
+      "@types/react-native": "~0.61.17",
+      "babel-preset-expo": "~8.1.0",
+      "typescript": "~3.8.3"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -6,11 +6,14 @@ class ItemsController {
     async index(request: Request, response: Response) {
         const items = await knex('items').select('*');
 
+        const expoIpUri = 'http://192.168.15.6';
+
         const serializedItems = items.map(item => {
+
             return {
                 id: item.id,
                 title: item.title,
-                image: `http://localhost:3333/uploads/${item.image}`
+                image: `${expoIpUri}:3333/uploads/${item.image}`
             }
         })
 
