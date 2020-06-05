@@ -6,7 +6,7 @@ class ItemsController {
     async index(request: Request, response: Response) {
         const items = await knex('items').select('*');
 
-        const expoIpUri = 'http://192.168.15.6';
+        const expoIpUri = 'http://192.168.15.7';
 
         const serializedItems = items.map(item => {
 
@@ -15,7 +15,7 @@ class ItemsController {
                 title: item.title,
                 image: `${expoIpUri}:3333/uploads/${item.image}`
             }
-        })
+        });
 
         return response.json(serializedItems);
     }
