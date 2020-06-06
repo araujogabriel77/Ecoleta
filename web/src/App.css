@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #34CB79;
+  --primary-color: #34cb79;
   --title-color: #322153;
-  --text-color: #6C6C80;
+  --text-color: #6c6c80;
 }
 
 * {
@@ -11,16 +11,45 @@
 }
 
 body {
-  background: #F0F0F5;
+  background: #f0f0f5;
   -webkit-font-smoothing: antialiased;
   color: var(--text-color);
 }
 
-body, input, button {
+body,
+input,
+button {
   font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--title-color);
   font-family: Ubuntu;
+}
+
+.App {
+  padding-top: 24px;
+}
+
+.made-by {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: -50px;
+}
+.made-by h2 {
+  font-size: 20px;
+}
+.made-by h2 a {
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: all 0.3s;
+}
+.made-by h2 a:hover {
+  color: #1f7a49;
 }

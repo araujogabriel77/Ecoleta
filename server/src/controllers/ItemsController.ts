@@ -6,7 +6,7 @@ class ItemsController {
     async index(request: Request, response: Response) {
         const items = await knex('items').select('*');
 
-        const expoIpUri = 'http://192.168.15.7';
+        const expoIpUri = 'http://192.168.15.9';
 
         const serializedItems = items.map(item => {
 

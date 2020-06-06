@@ -23,7 +23,7 @@ class PointsController {
 
             return {
                 ...point,
-                image: `http://192.168.15.7:3333/uploads/${point.image}`
+                image: `http://192.168.15.9:3333/uploads/${point.image}`
             }
         });
 
@@ -41,7 +41,7 @@ class PointsController {
         const serializedPoint = {
 
             ...point,
-            image: `http://192.168.15.7:3333/uploads/${point.image}`
+            image: `http://192.168.15.9:3333/uploads/${point.image}`
         };
 
         const items = await knex('items')

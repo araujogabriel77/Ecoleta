@@ -24,6 +24,9 @@ const Home = () => {
                     </Link>
                 </main>
             </div>
+            <div className="made-by">
+                <h2>Made by <a href="https://github.com/araujogabriel77">Gabriel A. Ferreira</a>🌳</h2>
+            </div>
         </div>
     );
 }

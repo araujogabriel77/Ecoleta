@@ -290,6 +290,9 @@ const CreatePoint = () => {
 
                 <button type="submit">Cadastrar ponto de coleta</button>
             </form>
+            <div className="made-by">
+                <h2>Made by <a href="https://github.com/araujogabriel77">Gabriel A. Ferreira</a>🌳</h2>
+            </div>
         </div >
     );
 }

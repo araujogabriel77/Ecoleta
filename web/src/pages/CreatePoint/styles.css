@@ -7,6 +7,7 @@
 
 #page-create-point header {
   margin-top: 48px;
+  padding: 0 16px;
 
   display: flex;
   justify-content: space-between;
@@ -31,7 +32,7 @@
   margin: 80px auto;
   padding: 64px;
   max-width: 730px;
-  background: #FFF;
+  background: #fff;
   border-radius: 8px;
 
   display: flex;
@@ -79,33 +80,35 @@
   margin-bottom: 24px;
 }
 
-#page-create-point form .field input[type=text],
-#page-create-point form .field input[type=email],
-#page-create-point form .field input[type=number] {
-  flex: 1;
-  background: #F0F0F5;
+#page-create-point form .field input[type="text"],
+#page-create-point form .field input[type="email"],
+#page-create-point form .field input[type="number"] {
+  width: 100%;
+  background: #f0f0f5;
   border-radius: 8px;
   border: 0;
-  padding: 16px 24px;
+  height: 48px;
+  padding-left: 16px;
   font-size: 16px;
-  color: #6C6C80;
+  color: #6c6c80;
 }
 
 #page-create-point form .field select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  flex: 1;
-  background: #F0F0F5;
+  width: 100%;
+  background: #f0f0f5;
   border-radius: 8px;
   border: 0;
-  padding: 16px 24px;
+  height: 48px;
+  padding-left: 16px;
   font-size: 16px;
-  color: #6C6C80;
+  color: #6c6c80;
 }
 
 #page-create-point form .field input::placeholder {
-  color: #A0A0B2;
+  color: #a0a0b2;
 }
 
 #page-create-point form .field label {
@@ -130,8 +133,8 @@
   align-items: center;
 }
 
-#page-create-point form .field-check input[type=checkbox] {
-  background: #F0F0F5;
+#page-create-point form .field-check input[type="checkbox"] {
+  background: #f0f0f5;
 }
 
 #page-create-point form .field-check label {
@@ -150,7 +153,7 @@
   height: 56px;
   background: var(--primary-color);
   border-radius: 8px;
-  color: #FFF;
+  color: #fff;
   font-weight: bold;
   font-size: 16px;
   border: 0;
@@ -161,7 +164,7 @@
 }
 
 #page-create-point form button:hover {
-  background: #2FB86E;
+  background: #2fb86e;
 }
 
 .items-grid {
@@ -194,10 +197,47 @@
 
   display: flex;
   align-items: center;
-  color: var(--title-color)
+  color: var(--title-color);
 }
 
 .items-grid li.selected {
-  background: #E1FAEC;
-  border: 2px solid #34CB79;
+  background: #e1faec;
+  border: 2px solid #34cb79;
+}
+
+@media screen and (max-width: 425px) {
+  #page-create-point form h1 {
+    font-size: 28px;
+  }
+  #page-create-point form .field-group {
+    flex-direction: column;
+  }
+  #page-create-point form .field-group .field + .field {
+    margin-left: 0;
+  }
+
+  #page-create-point form .field-group input + input {
+    margin-left: 0;
+  }
+  .items-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #page-create-point form button {
+    align-self: center;
+  }
+  #page-create-point form legend {
+    flex-direction: column;
+  }
+  #page-create-point form legend h2,
+  #page-create-point form legend span {
+    display: block;
+    width: 80%;
+  }
+  #page-create-point form {
+    padding: 10px;
+  }
+  #page-create-point form .leaflet-container {
+    width: 80%;
+    margin: 0 auto 32px;
+  }
 }
