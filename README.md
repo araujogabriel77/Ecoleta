@@ -46,7 +46,7 @@ Leia [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426)
 ##  Considerações finais
 Muito grato pela experiência e conhecimento que o projeto me proporcionou.
 Foi realmente um grande desafio porém, muito bem direcionado por um grande professor [Diego Fernandes](https://github.com/diego3g).
-Fica aqui o meu agradecimento a todo o pessoal da [Rocketseat].(https://github.com/Rocketseat)
+Fica aqui o meu agradecimento a todo o pessoal da [Rocketseat](https://github.com/Rocketseat)
 
 ## 📃 License
 
