@@ -34,8 +34,6 @@ Na pasta web use o comando
 Na pasta mobile rode o comando
 `expo start`
 
-## 🤜🤛 Contribuindo
-Leia [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) para detalhes do nosso código de conduta, e do processo para enviar uma pull request para o projeto.
 
 ### 🐱‍👤 Autor
 ![Gabriel Araujo](https://avatars3.githubusercontent.com/u/20818843?s=100&u=12d121eda80ca715b23ff555e9b54f975d9f4040&v=4)
